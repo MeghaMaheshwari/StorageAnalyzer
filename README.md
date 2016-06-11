@@ -1,1 +1,2 @@
-# StorageAnalyzer
+An app to scan through a folder and visualise the storage occupancy breakdown of the diretory and file chunks
+Please navigate in the readme folder and double click the RunningtheApp.html to launch the page

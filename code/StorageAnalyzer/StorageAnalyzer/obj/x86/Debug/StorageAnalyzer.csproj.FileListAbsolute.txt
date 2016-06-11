@@ -1,0 +1,14 @@
+c:\users\forme\documents\visual studio 2010\Projects\StorageAnalyzer\StorageAnalyzer\bin\Debug\StorageAnalyzer.exe
+c:\users\forme\documents\visual studio 2010\Projects\StorageAnalyzer\StorageAnalyzer\bin\Debug\StorageAnalyzer.pdb
+c:\users\forme\documents\visual studio 2010\Projects\StorageAnalyzer\StorageAnalyzer\obj\x86\Debug\MainWindow.baml
+c:\users\forme\documents\visual studio 2010\Projects\StorageAnalyzer\StorageAnalyzer\obj\x86\Debug\MainWindow.g.cs
+c:\users\forme\documents\visual studio 2010\Projects\StorageAnalyzer\StorageAnalyzer\obj\x86\Debug\App.g.cs
+c:\users\forme\documents\visual studio 2010\Projects\StorageAnalyzer\StorageAnalyzer\obj\x86\Debug\StorageAnalyzer_MarkupCompile.cache
+c:\users\forme\documents\visual studio 2010\Projects\StorageAnalyzer\StorageAnalyzer\obj\x86\Debug\StorageAnalyzer.g.resources
+c:\users\forme\documents\visual studio 2010\Projects\StorageAnalyzer\StorageAnalyzer\obj\x86\Debug\StorageAnalyzer.Properties.Resources.resources
+c:\users\forme\documents\visual studio 2010\Projects\StorageAnalyzer\StorageAnalyzer\obj\x86\Debug\StorageAnalyzer.csproj.GenerateResource.Cache
+c:\users\forme\documents\visual studio 2010\Projects\StorageAnalyzer\StorageAnalyzer\obj\x86\Debug\StorageAnalyzer.exe
+c:\users\forme\documents\visual studio 2010\Projects\StorageAnalyzer\StorageAnalyzer\obj\x86\Debug\StorageAnalyzer.pdb
+c:\users\forme\documents\visual studio 2010\Projects\StorageAnalyzer\StorageAnalyzer\obj\x86\Debug\StorageAnalyzer_Content.g.cs
+c:\users\forme\documents\visual studio 2010\Projects\StorageAnalyzer\StorageAnalyzer\obj\x86\Debug\VisualStorage.baml
+c:\users\forme\documents\visual studio 2010\Projects\StorageAnalyzer\StorageAnalyzer\obj\x86\Debug\VisualStorage.g.cs

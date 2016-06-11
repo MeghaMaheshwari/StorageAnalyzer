@@ -1,0 +1,26 @@
+body
+{
+	background-color:#70DBDB;
+}
+
+h1
+{
+	text-align:center;
+}
+
+h2
+{
+	text-align:left;
+	padding-left:30px;
+}
+
+p
+{
+	padding-left:50px;
+	padding-bottom:10px;
+}
+
+#launch
+{
+	padding-left:50px;
+}
