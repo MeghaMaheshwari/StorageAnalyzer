@@ -51,6 +51,10 @@ namespace StorageAnalyzer
 
             if (di.Exists)
             {
+                System.IO.FileInfo[] fileNames = di.GetFiles("*.*");
+                System.IO.DirectoryInfo[] Directories = di.GetDirectories("*.*");
+                _numoffiles = fileNames.Length.ToString();
+                _numofdirs = Directories.Length.ToString();
                 StoreFileInformation(di);
             }
         }
@@ -58,10 +62,7 @@ namespace StorageAnalyzer
         {
             System.IO.FileInfo[] fileNames = di.GetFiles("*.*");
             System.IO.DirectoryInfo[] Directories = di.GetDirectories("*.*");
-            System.IO.DirectoryInfo root = di.Root;
-            _numoffiles = fileNames.Length.ToString();
-            _numofdirs = Directories.Length.ToString();
-
+            
             long totallength = 0;
             List<FileInform> FilesInDir = new List<FileInform>();
             foreach (System.IO.FileInfo fi in fileNames)
