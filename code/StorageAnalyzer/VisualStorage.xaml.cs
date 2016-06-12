@@ -93,6 +93,6 @@ namespace StorageAnalyzer
                 RowValue++;
             }
             return RowValue;
-        }
+        }        
     }
 }
