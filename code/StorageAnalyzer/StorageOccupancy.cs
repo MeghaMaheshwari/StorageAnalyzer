@@ -68,7 +68,9 @@ namespace StorageAnalyzer
             foreach (System.IO.FileInfo fi in fileNames)
             {
                 System.IO.DirectoryInfo parent = fi.Directory;
-                FileInform Info = new FileInform(fi.Name, fi.Extension, fi.Length.ToString(), fi.LastWriteTime.ToString());
+
+                string FileSize = GetFileSize(fi.Length);
+                FileInform Info = new FileInform(fi.Name, fi.Extension, FileSize, fi.LastWriteTime.ToString());
                 totallength = totallength + fi.Length;
                 FilesInDir.Add(Info);
             }
@@ -81,19 +83,36 @@ namespace StorageAnalyzer
                 StoreFileInformation(d);
             }
         }
+
+        private string GetFileSize(long length)
+        {
+            string Value = length.ToString() + " bytes";
+            if (length > 1024 && length < (1024 * 1024))
+            {
+                Value = (length / 1024).ToString() + " KB";
+            }
+            else if (length > (1024 * 1024))
+            {
+                Value = (length / (1024 * 1024)).ToString() + " MB";
+            }
+            return Value;
+        }
     }
+
+    
 
     public class DirInfo
     {
         public string _dirname;
         public string _dirsize;
         public List<FileInform> _files;
-
+      
         public DirInfo(string name, string size, List<FileInform> files)
         {
             this._dirname = name;
             this._dirsize = size;
-            this._files = files;          
+            this._files = files; 
+         
         }
     }
 
